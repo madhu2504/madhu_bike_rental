@@ -81,7 +81,7 @@ jobs:
     - uses: actions/download-artifact@v4
       with:
         name: my-build-package
-        path: bike_sharing_api
+        path: bikeshare_api
 
     - name: Login to Docker hub
       env:
